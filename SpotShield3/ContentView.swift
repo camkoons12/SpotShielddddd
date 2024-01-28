@@ -32,7 +32,7 @@ struct ContentView: View {
                             .padding()
                     }
                     NavigationLink(destination: PACEReportView()) {
-                        Text("Map")
+                        Text("SwaggyButton")
                             .font(
                                 .largeTitle
                                     .weight(.bold))
