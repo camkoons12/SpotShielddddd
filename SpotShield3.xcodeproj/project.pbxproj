@@ -14,6 +14,9 @@
 		DCB3F60F2B65F2C900A0150D /* SpotShield3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3F60E2B65F2C900A0150D /* SpotShield3Tests.swift */; };
 		DCB3F6192B65F2C900A0150D /* SpotShield3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3F6182B65F2C900A0150D /* SpotShield3UITests.swift */; };
 		DCB3F61B2B65F2C900A0150D /* SpotShield3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3F61A2B65F2C900A0150D /* SpotShield3UITestsLaunchTests.swift */; };
+		DCB3F6282B65F55C00A0150D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3F6272B65F55C00A0150D /* HomeView.swift */; };
+		DCB3F62A2B65F86500A0150D /* PACEReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3F6292B65F86500A0150D /* PACEReportView.swift */; };
+		DCB3F62C2B65F88900A0150D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3F62B2B65F88900A0150D /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		DCB3F6142B65F2C900A0150D /* SpotShield3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotShield3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB3F6182B65F2C900A0150D /* SpotShield3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotShield3UITests.swift; sourceTree = "<group>"; };
 		DCB3F61A2B65F2C900A0150D /* SpotShield3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotShield3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCB3F6272B65F55C00A0150D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DCB3F6292B65F86500A0150D /* PACEReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PACEReportView.swift; sourceTree = "<group>"; };
+		DCB3F62B2B65F88900A0150D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				DCB3F5FC2B65F2C900A0150D /* SpotShield3App.swift */,
 				DCB3F5FE2B65F2C900A0150D /* ContentView.swift */,
+				DCB3F6272B65F55C00A0150D /* HomeView.swift */,
+				DCB3F6292B65F86500A0150D /* PACEReportView.swift */,
+				DCB3F62B2B65F88900A0150D /* MapView.swift */,
 				DCB3F6002B65F2C900A0150D /* Assets.xcassets */,
 				DCB3F6022B65F2C900A0150D /* SpotShield3.entitlements */,
 				DCB3F6032B65F2C900A0150D /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB3F6282B65F55C00A0150D /* HomeView.swift in Sources */,
 				DCB3F5FF2B65F2C900A0150D /* ContentView.swift in Sources */,
+				DCB3F62C2B65F88900A0150D /* MapView.swift in Sources */,
 				DCB3F5FD2B65F2C900A0150D /* SpotShield3App.swift in Sources */,
+				DCB3F62A2B65F86500A0150D /* PACEReportView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
